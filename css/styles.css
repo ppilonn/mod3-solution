@@ -1,0 +1,88 @@
+*{
+	box-sizing: border box;
+}
+
+body{
+	font-size: 18;
+	color: #fff;
+	background-color: #5c71b2;
+	font-family: 'Oxygen', sans-serif;
+	/*font-family: 'Cormorant Garamond', serif;*/
+	/*font-family: 'Space Mono', monospace;*/
+}
+
+h2{
+	/*text-align: center;*/
+}
+.navbar-brand{
+	margin-bottom: 20px;
+}
+
+.navbar-brand h1{
+	color: #fff;
+	font-family: 'Oxygen', serif;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	/*text-shadow: 1px 1px 1px #222;*/
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .nabar-brand a:focus{
+	text-decoration: none;
+}
+
+#collapsable-nav a{
+	background-color: #2c1d30;
+	color: #ffffff;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+#collapsable-nav a:hover{
+	background-color:  #ceb8d3;
+	color: #e7dcea;
+	text-decoration: none;
+}
+
+/*#nav-listtt a:hover{*/
+	/*background-color: #2c1d30;*/
+	/*color: #ffffff;*/
+	/*font-size: 1.2em;*/
+	/*text-transform: uppercase;*/
+/*}*/
+
+#header-nav{
+	border: 0;
+	border-radius: 0;
+	background-color: #23387b;
+}
+
+/*.navbar-header button.navbar-toggle, .navbar-header .icon-bar{*/
+	/*border: 1px solid green;*/
+/*}*/
+.navbar-header button.navbar-toggle, .icon-bar{
+	border: 1px solid #5c71b2;
+}
+
+#chicken{
+	height:1000px;
+	background-color:#fff;
+	color: black;
+	margin-bottom: 5px;
+
+}
+#beef{
+	height:1000px;
+	background-color:#fff;
+	color: black;
+	margin-bottom: 5px;
+}
+#sushi{
+	height:1000px;
+	background-color:#fff;
+	color: black;
+	margin-bottom: 5px;
+}
